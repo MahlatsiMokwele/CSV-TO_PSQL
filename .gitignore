@@ -1,0 +1,6 @@
+# Environments
+.env
+venv/
+
+# Data Files
+_202212000a_road_segments__202211161623.csv
