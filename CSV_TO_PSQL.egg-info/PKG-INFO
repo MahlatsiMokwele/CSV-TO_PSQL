@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: CSV-TO-PSQL
+Version: 1.0.0.0
+Summary: This Program Enables Users To Upload CSV Files TO PSQL
+Home-page: https://github.com/MahlatsiMokwele/CSV-TO_PSQL
+Author: Mahlatsi Mokwele
+Author-email: mahlatsi@geoint.africa
+License: Mozilla Public License Version 2.0
+Description: <p align="center"><img src="https://github.com/MahlatsiMokwele/CSV-TO_PSQL/blob/main/assets/Geo-Into_Logo-1-1024x532.png" width="400"></p>
+        
+        <p align="center"><h3 style="color: #193967; text-align: center">CSV To PSQL Data Upload For Pyhton</h3></p>
+        
+        <p align="center">
+        <a href="https://github.com/MahlatsiMokwele/CSV-TO_PSQL/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg"></a></p>
+        
+        ## About CSV-TO-PSQL
+        CSV-TO-PSQL is a program that will aid in the uploading of CSV files to PSQL databases. This is an alternative and more autonomous route to uploading csv files to any psql database.
+        
+        ## Getting Started
+        To get started please read the documentation online at https://github.com/MahlatsiMokwele/CSV-TO_PSQL 
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown

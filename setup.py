@@ -20,7 +20,7 @@ with open(HERE +'/requirements.txt') as f:
         author_email="mahlatsi@geoint.africa",
         license="Mozilla Public License Version 2.0",
         classifiers=[
-            "License :: OSI Approved :: Apache Software License",
+            "License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)",
             "Programming Language :: Python :: 3",
             "Programming Language :: Python :: 3.8",
         ],

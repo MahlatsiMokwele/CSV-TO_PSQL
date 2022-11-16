@@ -1,0 +1,7 @@
+README.md
+setup.py
+CSV_TO_PSQL.egg-info/PKG-INFO
+CSV_TO_PSQL.egg-info/SOURCES.txt
+CSV_TO_PSQL.egg-info/dependency_links.txt
+CSV_TO_PSQL.egg-info/requires.txt
+CSV_TO_PSQL.egg-info/top_level.txt
