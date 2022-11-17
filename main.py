@@ -4,6 +4,7 @@ import os
 import csv
 import psycopg2
 
+# Env Sourcing
 load_dotenv('.env')
 pg_db = os.envriron.get("POSTGRES_DB")
 pg_host = os.envriron.get("POSTGRES_HOST")
@@ -12,6 +13,7 @@ csv_fil = os.envriron.get("CSV_LOCATION")
 pg_port = os.envriron.get("POSTGRES_PORT")
 pg_password = os.envriron.get("POSTGRES_PASSWORD")
 
+# Database Connection 
 db_connection = psycopg2.connect(
     database=pg_db,
     user=pg_user,
@@ -53,7 +55,7 @@ def create_tables():
         print(db_error)
 
 def import_csv():
-    db_connection.open()
+    # Read and import CSV file
     with open(csv_fil, 'r') as file:
         csv_reader = csv.reader(file)
         next(csv_reader)
