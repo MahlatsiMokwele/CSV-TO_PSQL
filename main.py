@@ -65,15 +65,17 @@ def import_csv():
                 cursor.close()
             except (Exception, psycopg2.DatabaseError) as db_error:
                 print(db_error)
-            finally:
-                if db_connection is not None:
-                    db_connection.close()
-
+                
 def main():
     db_connection = database_connection()
-    create_tables()
-    import_csv()
-    db_connection.close()
+    try: 
+        create_tables()
+        import_csv()
+    except (Exception, psycopg2.DatabaseError) as db_error:
+        print(db_error)
+    finally:
+        if db_connection is not None:
+            db_connection.close()
 
 if __name__ == "__main__":
     main()

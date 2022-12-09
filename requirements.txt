@@ -29,7 +29,7 @@ command-not-found==0.3
 config==0.5.1
 configobj==5.0.6
 cryptography==2.8
--e git+git@github.com:MahlatsiMokwele/CSV-TO_PSQL.git@ad47e9908b6fd4fd24d44fdcb60367c232cb88d2#egg=CSV_TO_PSQL
+-e git+git@github.com:MahlatsiMokwele/CSV-TO_PSQL.git@025083fc26714a977a491b65c671c1a16419d308#egg=CSV_TO_PSQL
 csvkit==1.0.7
 cupshelpers==1.0
 cycler==0.10.0
